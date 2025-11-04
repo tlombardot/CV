@@ -1,0 +1,14 @@
+stages:
+  - deploy
+
+pages:
+  stage: deploy
+  only:
+    - main
+    - tags
+  script:
+    - echo "Déploiement sur github pages"
+  artifacts:
+    paths:
+      - public
+
