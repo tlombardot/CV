@@ -4,11 +4,149 @@ hgroup{
     text-align: center;
 }
 
+
+
 nav{
-    text-align: center;
-    word-spacing: 50px;
+    background-color:#256db5;
+    padding: 15px 0;
+    border-radius: 25px;
+    
+}
+
+nav ul{
+    list-style : none;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin : 0;
+    padding : 0;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight : 500;
+    font-size: 18px;
+    display: inline-block;
+}
+
+nav a:hover{
+    color:aqua;
+    transform: scale(1.1);
 }
 
 body{
-    margin: 100px;
+    
+    margin: auto ;
+    max-width: 70ch;
+    font-family: 'Sans-Serif', sans-serif;
+    padding: 0 1rem;
+    
+}
+
+main{
+    background-color: rgb(225, 228, 197);
+    border-radius: 15px;
+    margin: auto;
+    padding: 0 1rem;
+    padding-bottom: 21rem;
+    margin-top: 1rem;
+}
+
+
+#competences h2{
+    padding-top: 10px;
+    padding-left: 8px;
+    margin-top: 10px;
+}
+
+#competences{
+    background-color:rgb(166, 214, 233);
+    border-radius: 15px;
+    margin: 0;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+#competences ul{
+    list-style: none;
+    display: flex;
+    gap : 20px;
+    
+}
+
+#competences li{
+    padding: 5px 15px;
+    border-radius: 15px;
+    color: white;
+}
+
+
+#formations h2{
+    padding-top: 10px;
+    padding-left: 8px;
+    margin-top: 10px;
+}
+
+#formations{
+    background-color:rgb(166, 214, 233);
+    border-radius: 15px;
+    margin: 0;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+#formations ul{
+    list-style: none;
+    display: flex;
+    gap : 20px;
+    
+}
+
+#formations li{
+    padding: 5px 15px;
+    border-radius: 15px;
+    color: white;
+}
+/*
+    Couleur Compétences
+*/
+.C{
+    background-color: rgba(41, 88, 119, 0.585);
+}
+
+.Python{
+    background-color:#FFD343;
+}
+
+.HTML{
+    background-color:#ee8a5e ;
+}
+
+.Git{
+    background-color: #2c679f ;
+}
+
+.Java{
+    background-color: #ED8B00;
+}
+
+.SQL{
+    background-color: #00758F;
+}
+
+header img{
+    margin-left:220px;
+    margin-top: 20px;
+}
+
+.btn-motivation a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn-motivation{
+    background-color: #00758F;
+    border-radius: 15px;
+    border-color: #00758F;
 }
